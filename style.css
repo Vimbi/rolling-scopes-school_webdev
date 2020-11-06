@@ -14,6 +14,8 @@ body {
 
 .first_screen {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/bg-image.jpg);
+  height: 744px;
+  position: relative;
 }
 
 header {
@@ -21,17 +23,17 @@ header {
   
 }
 
-ul{
+header ul {
   display:flex;
   justify-content: center;
   align-items: center;
 }
 
-ul img{
+header ul img{
   display:block;
 }
 
-ul li{
+header ul li{
   margin: 25px 50px;
 }
 
@@ -42,10 +44,64 @@ ul li{
   font-family: Roboto, sans-serif;
 }
 
-h1 {
-  color: #FFFFFF;
+.current, .header_link:hover {
+  text-decoration: underline;
 }
 
+.title {  
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  letter-spacing: 4.5px;
+  text-align: center;
+  position: relative;
+  top: 18%;
+}
+
+.content_first_screen {
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+  position: relative;
+  text-align: center;
+  top: 21%
+}
+
+.get_started {
+  border: none;
+  outline: none;
+  width: 184px;
+  height: 46px;
+  background: #00AFDB;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 28%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.get_started:hover {
+  background: #009CC2;
+}
+
+.social_icons:hover {
+  background: #009CC2;
+}
 
 
 
