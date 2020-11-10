@@ -125,9 +125,6 @@ header ul li{
 .second_screen_text_block {
   width: 407px;
   height: 233px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   position: relative;
   top: 295px;
   left: 269px;
@@ -144,15 +141,19 @@ header ul li{
 }
 
 .content_second_screen {
-  
+  position: relative;
+  top: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 149%;
+  color: #4E4E4E;
 }
 
 .second_screen_button {
-  
-}
-
-.second_screen_button:hover {
-
+  position: relative;
+  top: 50px;
 }
 
 .second_screen img {
@@ -165,7 +166,74 @@ header ul li{
 
 /* ------------------ 3 SCREEN----------------------------- */
 
+.third_screen {
+  height: 504px;
+}
+
+.third_screen_text_block {
+  position: relative;
+  top: 155px;
+  left: 269px;
+  width: 298px;
+  height: 175px;
+  
+}
+
+.third_screen_text_block img {
+  left: 127px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ------------------ 4 SCREEN----------------------------- */
+
+.fourth_screen {
+  height: 842px;
+}
+
+.fourth_screen img {
+  width: 407px;
+  height: 582px;
+  position: relative;
+  top: 120px;
+  left: 269px;
+}
+
+.fourth_screen_text_block {
+  width: 407px;
+  height: 184px;
+  position: relative;
+  top: -267px;
+  left: 814px;
+}
+
+.fourth_title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;  
+}
+
+.content_fourth_screen {
+  position: relative;
+  top: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 149%;
+  color: #4E4E4E;
+}
+
+.fourth_screen_button {
+  position: relative;
+  top: 50px;
+  width: 180px;
+}
 
 /* ------------------ 5 SCREEN----------------------------- */
 
