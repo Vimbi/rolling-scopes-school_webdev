@@ -33,7 +33,7 @@ body {
 }
 
 .first_screen {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/bg-image.jpg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/bg-image.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 744px;
@@ -168,6 +168,7 @@ header ul li{
 
 .third_screen {
   height: 504px;
+  background: #F5F6F7;
 }
 
 .third_screen_text_block {
@@ -175,8 +176,7 @@ header ul li{
   top: 155px;
   left: 269px;
   width: 298px;
-  height: 175px;
-  
+  height: 175px;  
 }
 
 .third_screen_text_block img {
@@ -184,6 +184,10 @@ header ul li{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.third_title {
+  
 }
 
 /* ------------------ 4 SCREEN----------------------------- */
@@ -255,5 +259,5 @@ header ul li{
 
 @font-face {
   font-family: Roboto;
-  src: url(/fonts/Roboto/Roboto-Regular.ttf);
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
 }
