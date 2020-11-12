@@ -222,12 +222,45 @@ header ul li{
 }
 
 .slider_nav_items {
+  width: 83px;
   display: flex;
+  justify-content: space-between;
   position: relative;
   top: 82px;
   left: 542px;
 }
 
+.slide_count {
+  width: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide_number, .slide_quantity {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.slides {
+  width: 894px;
+  position: relative;
+  top: 102px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.slider_img_2 {
+  position: relative;
+  left: 30px;
+}
+
+.slider_img_3 {
+  position: relative;
+  left: 60px;
+}
 /* ------------------ 4 SCREEN----------------------------- */
 
 .fourth_screen {
