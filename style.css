@@ -169,6 +169,15 @@ header ul li{
 .third_screen {
   height: 504px;
   background: #F5F6F7;
+  display: flex;  
+}
+
+.third_screen_first_column {
+  width: 706px;
+}
+
+.third_screen_second_column {
+  width: 894px;
 }
 
 .third_screen_text_block {
@@ -176,7 +185,7 @@ header ul li{
   top: 155px;
   left: 269px;
   width: 298px;
-  height: 175px;  
+  height: 175px;
 }
 
 .third_screen_text_block img {
@@ -184,10 +193,39 @@ header ul li{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .third_title {
-  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2.4px;
+  color: #373737;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.content_third_screen {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #4E4E4E;
+  position: relative;
+  text-align: center;
+  top: 30px;
+}
+
+.slider_nav_items {
+  display: flex;
+  position: relative;
+  top: 82px;
+  left: 542px;
 }
 
 /* ------------------ 4 SCREEN----------------------------- */
